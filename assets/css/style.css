@@ -1,0 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.btn {
+    color: #fff;
+    background-color: black;
+    border-color: green; /*set the color you want here*/
+}
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: green;
+    border-color: black; /*set the color you want here*/
+}
